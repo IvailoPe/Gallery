@@ -1,0 +1,90 @@
+html{
+    font-size: 12px;
+    font-family: Tahoma, sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#login-register-box{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    width: 29rem;
+    height: 29rem;    
+    margin: 50px auto 0 auto;
+}
+
+#options{
+    display: flex;
+    height: 3rem;
+}
+
+#login-btn-change{
+    width: 100%;
+    height: 100%;
+    border-style: none;
+    font-family: inherit;
+    font-size: 1.5rem;
+    transition: font-size 0.5s;
+}
+
+#register-btn-change{
+    width: 100%;
+    height: 100%;
+    border-style: none;
+    font-family: inherit;
+    font-size: 1.5rem;
+    transition: font-size 0.5s;
+}
+
+#login-box, #register-box{
+    height: 90%;
+    width: 100%;
+}
+
+#login-box form, #register-box form{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+#login-box form label:first-of-type,#register-box form label:first-of-type{
+   margin-top: 15px;
+}
+
+#login-btn-change:hover{
+    font-size: 1.9rem;
+}
+
+
+#register-btn-change:hover{
+    font-size: 1.9rem;
+}
+
+.errors{
+    height: 40px;
+    font-size: 1rem;
+    color:red
+}
+
+form button{
+    border-style: none;
+    font-family: inherit;
+    font-size: 1.5rem;
+    transition: font-size 0.5s;
+    width: 7rem;
+    height: 3rem;
+}
+
+form button:hover{
+    font-size: 1.9rem;
+}
+
+#register-box{
+    display: none;
+}
